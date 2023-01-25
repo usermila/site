@@ -67,3 +67,8 @@ footer section {
 .container {
     display: flex;
 }
+
+body{
+    background-image: url('676790.jpg');
+    background-size: cover; 
+}
