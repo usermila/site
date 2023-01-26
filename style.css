@@ -19,7 +19,6 @@ header div {
     background: radial-gradient(circle,rgba(159,124,245,1) 0%,  rgba(238,174,202,1) 100%);
     text-align: center;
 
-
 }
 
 .liens{
@@ -35,15 +34,14 @@ header div {
 body {
     background: rgb(238,174,202);
 
+
 }
-main {
-    background: rgb(173, 129, 148);
-}
+
 
 /* body { 
     padding: 20%;
     background-image: url('676790.jpg');
- test
+  test
     background-size: cover;
 } */
 
@@ -66,10 +64,21 @@ footer section {
 }
 
 .container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 455px 455px 455px;
+    margin: 5%;
+    justify-content: center;
+    opacity: 0.8;
 }
 
 body{
     background-image: url('676790.jpg');
     background-size: cover; 
+    background-attachment: fixed;
+    
+}
+
+.element1 {
+
+    z-index: 9;
 }
