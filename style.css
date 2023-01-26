@@ -13,6 +13,7 @@ header div {
     left:180px;
     right: 100px;
     position: fixed;
+    z-index: 1;
 }
 
 .titre:hover{
@@ -69,6 +70,7 @@ footer section {
     margin: 5%;
     justify-content: center;
     opacity: 0.7;
+    z-index: 0;
 }
 
 body{
@@ -78,7 +80,3 @@ body{
     
 }
 
-.element1 {
-
-    z-index: 9;
-}
